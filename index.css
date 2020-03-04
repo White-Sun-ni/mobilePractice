@@ -13,7 +13,6 @@ header{
     top: 0;
     left: 0;
     padding: 0;
-    background: #262626;
     width: 100%;
     box-sizing: border-box;
 }
@@ -74,7 +73,7 @@ header ul li a:hover{
         position: absolute;
         width: 100%;
         height: calc(100vh - 50px);
-        background: #333;
+        background: rgba(0,0,0,.5);
         top: 50px;
         left: -100%;
         transition: 0.5s;
@@ -88,6 +87,7 @@ header ul li a:hover{
     }
     header nav ul a{
         border-bottom: 1px solid rgba(0,0,0,.2);
+	font-size: 25px;
     }
 }
 
@@ -157,6 +157,12 @@ h2.section_title{
     font-size: 60px;
     text-shadow: 1px 1px 2px #ffaeae, -1px 1px 2px #8f8fff;
     text-align: center;
+}
+
+@media screen and(max-width){
+    h2.section_title{
+	font-size: 35px;
+	}
 }
 
 h3.section_content{
