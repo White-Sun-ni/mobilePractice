@@ -92,7 +92,11 @@ header ul li a:hover{
 }
 
 .sec1{
+    width: 100%;
     height: 100vh;
+    background: url(images/30486951514161445077.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 .sec1_bg{    
