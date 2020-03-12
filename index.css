@@ -250,6 +250,7 @@ iframe{
 }
 
 .topicon{
+    z-index: 2;
     position: fixed;
     bottom: 40px;
     right: 50px;
